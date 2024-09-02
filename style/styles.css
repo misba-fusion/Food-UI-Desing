@@ -52,7 +52,7 @@
     margin-bottom: 20px;
 }
 
-#hero .hero-box .btn {
+.btn {
     border-radius: 8px;
     font-family: Nanum Brush Script;
     background: rgb(82, 195, 3);
@@ -61,10 +61,10 @@
     color: aliceblue;
     border: none;
     width: 200px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#hero .hero-box .btn:hover{
+.btn:hover {
     background-color: rgb(108, 218, 29);
     cursor: pointer;
 }
@@ -80,7 +80,7 @@ section .img-box {
     height: 695px;
     background-image: url(../assets/foods.png);
     background-repeat: no-repeat;
-    background-color:bisque;
+    background-color: bisque;
     background-size: cover;
 }
 
@@ -90,8 +90,8 @@ section .mother-sidenote {
     height: 695px;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
+    align-items: center;
 }
 
 section .side-note {
@@ -99,18 +99,18 @@ section .side-note {
     font-family: Nanum Brush Script;
 }
 
-section .header2{
+section .header2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-section .pera2{
+section .pera2 {
     font-size: 24px;
     opacity: 0.6;
     margin-bottom: 60px;
 }
 
-section .follow{
+section .follow {
     font-size: 32px;
     opacity: 0.8;
     margin-top: 15px;
@@ -119,25 +119,117 @@ section .follow{
     border-bottom: 1px solid black;
 }
 
-li{
+li {
     list-style: none;
     display: inline;
 }
 
-section .icons .pic{
+section .icons .pic {
     width: 35px;
     margin: 20px;
 }
 
-section .icons .pic:hover{
+section .icons .pic:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-a{
+a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
+}
+
+#buy {
+    height: 695px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+
+section .content {
+    width: 1350px;
+    height: 550px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    font-family: Nanum Brush Script;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+section .header3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section .pera3 {
+    font-size: 20px;
+    opacity: 0.7;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 
+section .header4 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
+section .pera4 {
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#cards {
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.single-card {
+    align-items: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.control-image {
+    width: 380px;
+    background-size: cover;
+}
+
+.btn-set {
+    margin-top: 25px;
+}
+
+.single-card-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(83, 195, 3, 0.522);
+    border: none;
+    font-size: 15px;
+}
+
+.card-btn:hover{
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+}
